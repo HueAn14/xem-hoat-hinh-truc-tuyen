@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Xem Phim Hoạt Hình Trực Tuyến</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER CỐ ĐỊNH -->
+    <header class="main-header">
+        <div class="logo">
+            <h2>🎬 HoạtHìnhKids</h2>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Tìm kiếm phim hoạt hình...">
+            <button type="button">Tìm kiếm</button>
+        </div>
+        <nav class="head-link">
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Phim Mới</a></li>
+                <li><a href="#">Xem Nhiều</a></li>
+                <li><a href="#">Thể Loại</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTAINER CHÍNH -->
+    <div class="main-container">
+        <!-- LEFT CONTENT: Danh sách video -->
+        <aside class="left-content">
+            <h3>Danh Sách Phim</h3>
+            <ul class="video-list">
+                <li class="active">
+                    <a href="#">
+                        <img src="https://picsum.photos/80/50?random=1" alt="Phim 1">
+                        <span>Tập 1: Mơ Ước Bất Tận</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://picsum.photos/80/50?random=2" alt="Phim 2">
+                        <span>Tập 2: Cuộc Phiêu Lưu Mới</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://picsum.photos/80/50?random=3" alt="Phim 3">
+                        <span>Tập 3: Bí Mật Rừng Xanh</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://picsum.photos/80/50?random=4" alt="Phim 4">
+                        <span>Tập 4: Vùng Đất Kỳ Diệu</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- RIGHT CONTENT: Khung phát Video -->
+        <main class="right-content">
+            <div class="video-wrapper">
+                <!-- Nhúng Video bằng iframe (YouTube) -->
+                <iframe 
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                    title="Hoạt hình thuyết minh" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-info">
+                <h1>Tập 1: Mơ Ước Bất Tận (Thuyết Minh HD 1080p)</h1>
+                <p><strong>Lượt xem:</strong> 125,000 views • <strong>Cập nhật:</strong> Mới nhất</p>
+                <p class="description">
+                    Bộ phim hoạt hình dành cho trẻ em với nội dung mang tính giáo dục, chọn lọc kỹ càng, chất lượng cao, không có quảng cáo độc hại.
+                </p>
+            </div>
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <p>&copy; 2026 Trang Web Xem Hoạt Hình Trẻ Em. Bản quyền thuộc về HoạtHìnhKids.</p>
+    </footer>
+
+</body>
+</html>
